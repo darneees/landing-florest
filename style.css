@@ -58,8 +58,8 @@ body {
     background-size: cover;
 }
 #content {
-    backdrop-filter: blur( 3.5px );
-    -webkit-backdrop-filter: blur( 3.5px );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,29 +67,18 @@ body {
     height: 535px;
 }
 .cntBox {
-    background: rgba( 52, 78, 65, 0.7 );
-    backdrop-filter: blur( 5.5px );
-    -webkit-backdrop-filter: blur( 5.5px );
-    width: 500px;
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    width: 600px;
     text-align: center;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 30px;
-    border-radius: 20px;
-}
-.cnth1 {
-    text-align: center;
-}
-.cnth1 h1 {
-    font-size: 35px;
-    color: #354f52;
-    padding: 12px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
 }
 .cntBox p {
-    color: #f9f9f9;
+    text-indent: 7px;
+    font-size: 20px;
+    color: #0d1321;
 }
 .imgBox img {
     width: 100%;
@@ -110,7 +99,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .tlt2 h2 {
     background: rgba( 52, 78, 65, 0.7 );
@@ -168,21 +156,13 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-.txtBox3 {
-    width: 100%;
-    height: 280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
 .cnt3 {
     background: rgba( 52, 78, 65, 0.7 );
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
     color: #f9f9f9;
-    height: 100%;
-    padding: 20px;
+    height: 350px;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +180,7 @@ body {
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
     color: #f9f9f9;
-    padding: 12px;
+    padding: 12px 30px 12px 30px;
     text-transform: uppercase;
     border-radius: 10px;
     letter-spacing: 2px;
@@ -226,7 +206,7 @@ body {
     -webkit-backdrop-filter: blur( 5.5px );
     color: #f9f9f9;
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 12px 30px 12px 30px;
     text-transform: uppercase;
     border-radius: 10px;
 }
@@ -255,7 +235,7 @@ body {
     width: 540px;
     margin-left: -40px;
 }
-.tntImg1 img , .tntImg2 img, .tntImg4 img, .tntImg5 img, .tntImg6 img, .tntImg7 img{
+.tntImg1 img , .tntImg2 img, .tntImg4 img, .tntImg5 img, .tntImg6 img, .tntImg7 img {
     border-radius: 10px;
     border: 2px solid #f9f9f9;
     width: 100%;
@@ -270,17 +250,269 @@ body {
 #content5 {
     backdrop-filter: blur( 3.5px );
     -webkit-backdrop-filter: blur( 3.5px );
-    height: 350px;
+    height: 520px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Biggest h2 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    color: #f9f9f9;
+    letter-spacing: 2px;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.Biggest i {
+    padding-right: 5px;
+    color: #354f52;
+}
+.countr-s {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cntry {
+    margin: 10px;
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cntry p {
+    color: #f9f9f9;
+    font-size: 17px;
+    border: 2px solid #f9f9f9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
 /* FOOTER */
 #about {
     background: rgba( 52, 78, 65, 0.7 );
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 5.5px );
-    height: 200px;
+    height: 180px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.copy {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 50px;
+}
+.copy p {
+    font-size: 20px;
+    color: #f9f9f9;
+}
+.copy img {
+    padding-left: 5px;
+}
+.social {
+    margin-right: 50px;
+}
+.social a  {
+    text-decoration: none;
+    margin: 5px;
 }
 /* RESPONSIVO */
+@media ( max-width: 1200px) {
+    header , main , footer {
+        position: relative;
+        width: calc(100%);
+      }
+}
+@media ( max-width: 992px) {
+    body {
+        width: 100%;
+      }
+    header , main , footer {
+        position: relative;
+        width: calc(100%);
+    }
+    nav {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        flex-direction: row;
+    }
+    #content {
+        display: flex;
+        justify-content: center;
+
+    }
+    .cntBox p {
+        color: #f9f9f9;
+    }
+    #content2 {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cnt-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 580px;
+    }
+    .tlt {
+        padding-bottom: 10px;
+    }
+    .cnt3 {
+        width: 80%;
+        height: 350px;
+    }
+    #content4 {
+        width: 100%;
+        height: 4000px;
+    }
+    #tnt1 , #tnt2 , #tnt3, #tnt4 , #tnt5 , #tnt6, #tnt7 {
+        width: 80%;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tntImg1 , .tntImg2 , .tntImg3 , .tntImg4 , .tntImg5 , .tntImg6 , .tntImg7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        padding-left: 30px;
+    }
+    .tntImg1 img , .tntImg2 img, .tntImg4 img, .tntImg5 img, .tntImg6 img, .tntImg7 img {
+        width: 100%;
+    }
+    .descrip1 p, .descrip2 p, .descrip3 p, .descrip4 p, .descrip5 p, .descrip6 p, .descrip7 p {
+        padding-top: 20px;
+        font-size: 25px;
+        color: #f9f9f9;
+    }
+    #content5 {
+        width: 100%;
+        height: 550px;
+    }
+}
+@media ( max-width: 772px) {
+    body {
+        width: 100%;
+      }
+    header , main , footer {
+        width: calc(100%);
+    }
+    nav {
+        width: 100%;
+        height: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .menu li {
+        margin: 5px;
+    }
+    .cntBox {
+        width: 100%;
+    }
+    .cntBox p {
+        padding: 35px;
+        color: #f9f9f9;
+    }
+    #content2 {
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #content3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 800px;
+    }
+    .tlt {
+        padding-bottom: 10px;
+    }
+    .cnt3 {
+        display: flex;
+        flex-direction: column;
+
+        height: 550px;
+    }
+    #content4 {
+        width: 100%;
+        height: 3600px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #tnt1 , #tnt2 , #tnt3, #tnt4 , #tnt5 , #tnt6, #tnt7 {
+        width: 90%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .tntImg1 , .tntImg2 , .tntImg3 , .tntImg4 , .tntImg5 , .tntImg6 , .tntImg7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+        padding-left: 30px;
+    }
+    .tntImg1 img , .tntImg2 img, .tntImg4 img, .tntImg5 img, .tntImg6 img, .tntImg7 img {
+        width: 100%;
+    }
+    .tntImg3 img {
+        border-radius: 10px;
+        width: 100%;
+        height: 290px;
+    }
+    #content5 {
+        width: 100%;
+        height: 856px;
+    }
+    #about {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+}
