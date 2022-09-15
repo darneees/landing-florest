@@ -505,6 +505,10 @@ body {
         width: 100%;
         height: 290px;
     }
+    .descrip1 p, .descrip2 p, .descrip3 p, .descrip4 p, .descrip5 p, .descrip6 p, .descrip7 p {
+        font-size: 25px;
+        color: #f9f9f9;
+    }
     #content5 {
         width: 100%;
         height: 856px;
