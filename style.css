@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+nav {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo {
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.logo::first-letter {
+    font-size: 25px;
+    color: #354f52;
+}
+.logo i {
+    padding-right: 4px;
+}
+.menu {
+    margin-right: 30px;
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    display: flex;
+    margin: 0 0 0 8px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 7px;
+    border-radius: 3px;
+}
+.menu li a:hover {
+    background: #354f52;
+    color: #f9f9f9;
+}
+/* SECTION 01 */
+body {
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#content {
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 535px;
+}
+.cntBox {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+.cnth1 {
+    text-align: center;
+}
+.cnth1 h1 {
+    font-size: 35px;
+    color: #354f52;
+    padding: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.cntBox p {
+    color: #f9f9f9;
+}
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+/* SECTION 02 */
+#content2 {
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    height: 390px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cnt-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tlt2 h2 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    color: #f9f9f9;
+    mix-blend-mode: screen;
+    padding: 12px 30px 12px 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.tlt2 h2 i {
+    color: #354f52;
+    padding-right: 8px;
+}
+.dot {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot:hover {
+    background: rgba( 53, 79, 82, 0.3 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+.dot a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #f9f9f9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* SECTION 03 */
+#content3 {
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.txtBox3 {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cnt3 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    color: #f9f9f9;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+.cnt3 p {
+    text-indent: 7px;
+    padding: 10px;
+}
+.tlt h2 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    color: #f9f9f9;
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 2px;
+
+}
+.tlt i {
+    padding-right: 5px;
+    color: #354f52;
+}
+/* SECTION 04 */
+#content4 {
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    height: 3500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tnth2 h2 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    color: #f9f9f9;
+    letter-spacing: 2px;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.tnth2 i {
+    padding-right: 5px;
+    color: #354f52;
+}
+#tnt1 , #tnt2 , #tnt3 , #tnt4 , #tnt5 , #tnt6 , #tnt7 {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.descrip1 p, .descrip2 p, .descrip3 p, .descrip4 p, .descrip5 p, .descrip6 p, .descrip7 p {
+    font-size: 25px;
+    color: #f9f9f9;
+}
+.tntImg1 , .tntImg2 , .tntImg3 , .tntImg4 , .tntImg5 , .tntImg6 , .tntImg7 {
+    width: 540px;
+    margin-left: -40px;
+}
+.tntImg1 img , .tntImg2 img, .tntImg4 img, .tntImg5 img, .tntImg6 img, .tntImg7 img{
+    border-radius: 10px;
+    border: 2px solid #f9f9f9;
+    width: 100%;
+}
+.tntImg3 img {
+    border-radius: 10px;
+    width: 100%;
+    height: 340px;
+    border: 2px solid #f9f9f9;
+}
+/* SECTION 5 */
+#content5 {
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+/* FOOTER */
+#about {
+    background: rgba( 52, 78, 65, 0.7 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+/* RESPONSIVO */
