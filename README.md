@@ -5,16 +5,6 @@
   THE FLOREST ( inspirado no projeto anterior ) :deciduous_tree:
 </h1>
 
-<h2>
-  :pencil: Descrição
-</h2>
-
-<p>
-
-  ...
-  
-</p>
-
 ## ✔️ Tecnologias utilizadas  ✔️
 - ``HTML5``
 - ``CSS3``
@@ -34,7 +24,7 @@ https://www.flaticon.com/br/
 
 ## Deployed
 
-
+https://darneees.github.io/landing-florest/
 
 <h3 align="center">
 
